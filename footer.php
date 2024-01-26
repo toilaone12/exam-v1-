@@ -67,3 +67,14 @@
         </div>
     </div>
     </footer> 
+<div class="group-contact">
+    <a href="" class="contact-message">
+        <i class="text-white fa-brands fa-facebook-messenger"></i>
+    </a>
+    <a href="" class="contact-message">
+        <i class="text-white fa-solid fa-phone-flip"></i>
+    </a>
+</div>
+<button type="button" id="back-to-top">
+    <i class="fa-solid fa-angle-up fs-18 fw-bold" style="line-height: 37px;"></i>
+</button>

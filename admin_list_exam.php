@@ -1,10 +1,10 @@
 <?php
 
 @include 'config.php';
-$result = mysqli_query($conn,'SELECT * FROM baikiemtra');
-$resultLevel = mysqli_query($conn,'SELECT * FROM trinhdo');
-$resultLesson = mysqli_query($conn,'SELECT * FROM kynang');
-$resultAssignment = mysqli_query($conn,'SELECT * FROM debai');
+$result = mysqli_query($conn,'SELECT * FROM baikiemtra ORDER BY id desc');
+$resultLevel = mysqli_query($conn,'SELECT * FROM trinhdo ORDER BY id desc');
+$resultLesson = mysqli_query($conn,'SELECT * FROM kynang ORDER BY id desc');
+$resultAssignment = mysqli_query($conn,'SELECT * FROM debai ORDER BY id desc');
 ?>
 <?php
     if(isset($_POST) && $_POST){
